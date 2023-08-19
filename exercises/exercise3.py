@@ -13,6 +13,8 @@ edad_02 = 41
 
 # COMPLETAR - INICIO
 
+comparar_nombre_y_edad = (persona_01==persona_02) and not (edad_01==edad_02)
+
 # COMPLETAR - FIN
 
 assert comparar_nombre_y_edad
@@ -28,6 +30,8 @@ marca_del_auto = "Chevrolet"
 modelo_de_auto = 1998
 
 # COMPLETAR - INICIO
+
+comparar_marca_y_modelo= not(marca_del_auto=="Ford") and modelo_de_auto<=2000
 
 # COMPLETAR - FIN
 
@@ -46,6 +50,9 @@ superficie_de_campo_02 = 851212
 superficie_de_campo_03 = 8512
 
 # COMPLETAR - INICIO
+
+comparar_superficie = superficie_de_campo_01<superficie_de_campo_02>superficie_de_campo_03
+
 
 # COMPLETAR - FIN
 
@@ -66,6 +73,8 @@ manzanas = 300
 peras = 30
 
 # COMPLETAR - INICIO
+
+comparar_frutas = bananas<naranjas/2<2*manzanas<=peras**2
 
 # COMPLETAR - FIN
 
