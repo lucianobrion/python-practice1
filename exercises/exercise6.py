@@ -212,7 +212,7 @@ Restricción: Utilizar el método any
 notas = [False, False, False, False, False, False, False, False, False]
 
 # COMPLETAR - INICIO
-no_tiene_examenes_aprobados =  any(notas)
+no_tiene_examenes_aprobados =  not any(notas)
 # COMPLETAR - FIN
 
 assert no_tiene_examenes_aprobados
